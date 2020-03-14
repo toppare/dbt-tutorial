@@ -33,4 +33,4 @@ models:
         materialized: table
 
         stg_orders:
-          tags: "nightly"
+          tags: "nightly" # dbt run --models tag:nightly
